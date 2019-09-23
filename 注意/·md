@@ -1,0 +1,10 @@
+### 循环结构
+* 循环要素
+- 循环体  
+- 循环条件   
+##### while循环
+![while循环语句流程图](https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=while%E5%BE%AA%E7%8E%AF%E6%B5%81%E7%A8%8B%E5%9B%BE%2C&hs=2&pn=0&spn=0&di=550&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&ie=utf-8&oe=utf-8&cl=2&lm=-1&cs=3361182313%2C927048861&os=1058607330%2C361171119&simid=3355907086%2C344519821&adpicid=0&lpn=0&ln=30&fr=ala&fm=&sme=&cg=&bdtype=0&oriquery=while%E5%BE%AA%E7%8E%AF%E6%B5%81%E7%A8%8B%E5%9B%BE%2C&objurl=http%3A%2F%2Fa1.att.hudong.com%2F34%2F48%2F19300001382835132504487707117.png&fromurl=ippr_z2C%24qAzdH3FAzdH3Fks52_z%26e3Bftgw_z%26e3Bv54_z%26e3BvgAzdH3Fsu3wewfj&gsm=0&islist=&querylist=)
+
+##### dowhile循环
+##### for循环
+##### 增强的for循环：foreach(迭代器)
