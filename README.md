@@ -8,15 +8,11 @@ Java学习开放仓库
 ### Java基础        
 [java开发环境](https://github.com/eternityfantastic/study/blob/master/node/Java开发环境.md)  
 [Java变量](https://github.com/eternityfantastic/study/blob/master/node/Java变量.md)  
-[Java基本数据类型](https://github.com/eternityfantastic/study/blob/master/node/Java基本数据类型.md)  
-<<<<<<< HEAD
-[运算符和表达式]https://github.com/eternityfantastic/study/blob/master/node/运算符和表达式.md)       
-=======
-[运算符和表达式](https://github.com/eternityfantastic/study/blob/master/node/运算符和表达式.md)       
->>>>>>> f462483b7adb102edcb7dbab3eae6de8fa3a1e6f
-[分支结构](https://github.com/eternityfantastic/study/blob/master/node/分支结构.md)      
-[循环结构](https://github.com/eternityfantastic/study/blob/master/node/循环结构.md)       
-[数组](https://github.com/eternityfantastic/study/blob/master/node/数组.md)       
+[Java基本数据类型](https://github.com/eternityfantastic/study/blob/master/node/Java基本数据类型.md)    
+[运算符和表达式](https://github.com/eternityfantastic/study/blob/master/node/运算符和表达式.md)           
+[分支结构](https://github.com/eternityfantastic/study/blob/master/node/分支结构.md)           
+[循环结构](https://github.com/eternityfantastic/study/blob/master/node/循环结构.md)               
+[数组](https://github.com/eternityfantastic/study/blob/master/node/数组.md)               
 [方法](https://github.com/eternityfantastic/study/blob/master/node/方法.md)
 ### Java面向对象             
 [对象和类](https://github.com/eternityfantastic/study/blob/master/node/对象和类.md)         
