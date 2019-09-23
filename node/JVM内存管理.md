@@ -1,1 +1,10 @@
-###Welcome to use MarkDown
+###Java内存管理
+
+* 寄存器         
+* 堆栈：       
+* 栈：          
+* 常量存储  
+* 非RAM存储        
+####Java的内存模型
+![内存图java 8 之前]
+![内存图java 8 之后]
