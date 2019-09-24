@@ -14,7 +14,7 @@ Java学习开放仓库
 [I/O流](https://github.com/eternityfantastic/tdy/blob/master/note/运算符和表达式.md)           
 [异常](https://github.com/eternityfantastic/studblob/master/note/分支结构.md)           
 [线程](https://github.com/eternityfantastic/s/blob/master/note/循环结构.md)               
-[图形](https://github.com/eternityfantastic/studyob/master/note/数组.md) 
+[图形](https://github.com/eternityfantastic/studyob/master/note/数组.md)      
 [容器](https://github.com/eternityfantastic/studyob/master/note/数组.md)               
 [JVM](https://github.com/eternityfantastic/stblob/master/note/方法.md)
 ### Java核心API
