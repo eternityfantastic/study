@@ -1,7 +1,9 @@
 # study
 Java学习开放仓库    
 
-[Markdown教程](https://www.runoob.com/markdown/md-tutorial.html)
+[Markdown教程](https://www.runoob.com/markdown/md-tutorial.html)              
+[菜鸟教程](https://www.runoob.com)         
+
 # C语言 
 
 # Java 
@@ -27,7 +29,7 @@ Java学习开放仓库
 [待定](https://github.com/etestic/study/blob/master/note/访问权限.md)         
 [待定](https://github.com/eternintastic/study/blob/master/note/抽象类和接口.md)    
 ### Java核心API             
-[菜鸟教程](https://www.runoob.com)         
+[待定](https://www.runoob.com)         
 
 
 
