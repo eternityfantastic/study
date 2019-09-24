@@ -5,6 +5,7 @@ Java学习开放仓库
 [菜鸟教程](https://www.runoob.com)         
 
 # C语言 
+[C语言](https://github.com/eternityfantastic/study/blob/master/note/C语言.md)
 
 # Java 
 ### Java基础        
