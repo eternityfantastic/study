@@ -40,7 +40,7 @@
 ### Java核心API  
 [待定](https://github.com/eternityfanc/study/blob/master/note/对象和类.md)  
 ### 前端
-[HtML](efsdcs)  
+[HTML](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)  
 ### JavaEE             
 [待定](https://github.com/eternityfanc/study/blob/master/note/对象和类.md)         
 [待定](https://github.com/eternastic/study/blob/master/note/方法和数组.md)        
