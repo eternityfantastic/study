@@ -42,5 +42,5 @@ Java学习开放仓库
 # 计算机网络 
 
 # 操作系统 
-[作者介绍](https://www.runo;lk;lk;.com)[友情链接](https://www.runo;lk;lk;.com)
+|[作者介绍](https://www.runo;lk;lk;.com)|[友情链接](https://www.runo;lk;lk;.com)|
 
