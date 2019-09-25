@@ -13,7 +13,7 @@
 <br>
 
 <div align="center">
-    <img src="assets/LogoMakr_0zpEzN.png" width="200px">
+    <img src="assets/LogoMakr_0zpEzN.png" width="200px" alt="这是一张显示不了的图片">
 </div>  
   
   
