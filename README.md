@@ -5,6 +5,7 @@ Java学习开放仓库
 [菜鸟教程](https://www.runoob.com)         
 
 # C语言 
+[C语言](https://github.com/eternityfantastic/study/blob/master/note/C语言.md)
 
 # Java 
 ### Java基础        
@@ -21,6 +22,8 @@ Java学习开放仓库
 [JVM](https://github.com/eternityfantastic/stblob/master/note/方法.md)
 ### Java核心API
 [待定](https://github.com/eternityfanc/study/blob/master/note/对象和类.md) 
+### 前端
+[HTML](efsdcs)
 ### JavaEE             
 [待定](https://github.com/eternityfanc/study/blob/master/note/对象和类.md)         
 [待定](https://github.com/eternastic/study/blob/master/note/方法和数组.md)        
@@ -39,5 +42,5 @@ Java学习开放仓库
 # 计算机网络 
 
 # 操作系统 
-[作者介绍](https://www.runo;lk;lk;.com)
+[作者介绍](https://www.runo;lk;lk;.com)[友情链接](https://www.runo;lk;lk;.com)
 
