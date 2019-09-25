@@ -23,7 +23,7 @@ Java学习开放仓库
 ### Java核心API
 [待定](https://github.com/eternityfanc/study/blob/master/note/对象和类.md) 
 ### 前端
-[HtML](efsdcs)
+[HTML](efsdcs)
 ### JavaEE             
 [待定](https://github.com/eternityfanc/study/blob/master/note/对象和类.md)         
 [待定](https://github.com/eternastic/study/blob/master/note/方法和数组.md)        
@@ -42,5 +42,5 @@ Java学习开放仓库
 # 计算机网络 
 
 # 操作系统 
-[作者介绍](https://www.runo;lk;lk;.com)
+[作者介绍](https://www.runo;lk;lk;.com)[友情链接](https://www.runo;lk;lk;.com)
 
