@@ -55,7 +55,7 @@
 
 
 ##  :key: 数据结构   
-[基本概念和术语](https://github.com/eternityfantastic/study/blster/note/HTML基础.md)  
+[基本概念和术语](https://github.com/eternityfantastic/study/blob/master/note/数据结构基本术语和概念.md)  
 [线性表](https://github.com/eternityfantastic/study/blster/note/HTML基础.md)      
 [栈和队列](https://github.com/eternityfantastic/study/blster/note/HTML基础.md)       
 [串](https://github.com/eternityfantastic/study/blster/note/HTML基础.md)  
