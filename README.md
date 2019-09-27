@@ -37,8 +37,7 @@
 [图形](https://github.com/eternityfantastic/studyob/master/note/数组.md)      
 [容器](https://github.com/eternityfantastic/studyob/master/note/数组.md)               
 [JVM](https://github.com/eternityfantastic/stblob/master/note/方法.md)
-### Java核心API  
-[待定](https://github.com/eternityfanc/study/blob/master/note/对象和类.md)  
+ 
 ### JavaWeb
 [HTML](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)    
 [CSS](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)    
