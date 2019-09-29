@@ -51,6 +51,19 @@ HTML 链接是通过标签 &amp;lt;a> 来定义的.
 
 * div是块级标签每个div标签单独占一行，span是内联标签，文本信息在一行展示，HTML为了提高程序的可阅读性，增加了header,和footer标签     
 
-
-* table表格   
-![alt 属性文本](https://github.com/eternityfantastic/study/blob/master/note/img/HTML表格标签.png)
+* table表格  
+	* width:宽度
+	* border: 边框
+	* cellpadding: 定义内容和单元格的距离
+	* cellspacing: 定义单元格之间的距离。如果指定为0，则单元格的线会合并成一条线；
+	* bgcolor: 背景色；
+	* aligh: 定义对齐方式；
+1. tr: 定义行
+2. td: 定义列
+	* colspan:合并列
+	* rowspan:合并行
+3. th: 定义表头单元格
+	* <caption>: 表格标题
+	* <tbody>: 表格体部分
+	* <thead>: 表格头部分
+	* <tfoot>: 表格脚部分		
