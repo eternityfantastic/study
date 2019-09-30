@@ -50,16 +50,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeqList.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SeqList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SeqList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="945">
+              <caret line="56" selection-end-line="74" />
               <folding>
-                <element signature="method#SeqList#0;class#SeqList#0" />
                 <element signature="method#add#0;class#SeqList#0" />
                 <element signature="method#insert#0;class#SeqList#0" />
-                <element signature="method#show#0;class#SeqList#0" />
+                <element signature="e#1330#1331#0" expanded="true" />
+                <element signature="e#1357#1358#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="158">
@@ -113,7 +113,6 @@
                 <element signature="method#getLength#0;class#LinkedList#0" />
                 <element signature="method#display#0;class#LinkedList#0" />
                 <element signature="method#reverseList#0;class#LinkedList#0" />
-                <element signature="e#5142#5159#0" />
                 <element signature="method#hebing#0;class#LinkedList#0" />
                 <element signature="method#mid#0;class#LinkedList#0" />
                 <element signature="method#Finn#0;class#LinkedList#0" />
@@ -125,8 +124,8 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            <state relative-caret-position="297">
+              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
               <folding>
                 <element signature="e#65#110#0" />
               </folding>
@@ -177,7 +176,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-24" />
     <option name="y" value="474" />
     <option name="width" value="1890" />
@@ -188,8 +187,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,7 +211,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,11 +340,12 @@
       <workItem from="1569649879036" duration="10198000" />
       <workItem from="1569663845806" duration="2199000" />
       <workItem from="1569753218766" duration="3821000" />
+      <workItem from="1569814913621" duration="635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55073000" />
+    <option name="totallyTimeSpent" value="55708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,11 +357,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.497979" weight="0.039355993" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3291592" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -373,9 +373,8 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18027486" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18270008" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -387,6 +386,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3291592" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -865,23 +866,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        <state relative-caret-position="297">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
           <folding>
             <element signature="e#65#110#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SeqList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="method#SeqList#0;class#SeqList#0" />
-            <element signature="method#add#0;class#SeqList#0" />
-            <element signature="method#insert#0;class#SeqList#0" />
-            <element signature="method#show#0;class#SeqList#0" />
           </folding>
         </state>
       </provider>
@@ -903,10 +891,22 @@
             <element signature="method#getLength#0;class#LinkedList#0" />
             <element signature="method#display#0;class#LinkedList#0" />
             <element signature="method#reverseList#0;class#LinkedList#0" />
-            <element signature="e#5142#5159#0" />
             <element signature="method#hebing#0;class#LinkedList#0" />
             <element signature="method#mid#0;class#LinkedList#0" />
             <element signature="method#Finn#0;class#LinkedList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SeqList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="56" selection-end-line="74" />
+          <folding>
+            <element signature="method#add#0;class#SeqList#0" />
+            <element signature="method#insert#0;class#SeqList#0" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1357#1358#0" expanded="true" />
           </folding>
         </state>
       </provider>
