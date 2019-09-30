@@ -53,8 +53,14 @@
       <file leaf-file-name="SeqList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SeqList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="267">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="method#SeqList#0;class#SeqList#0" />
+                <element signature="method#add#0;class#SeqList#0" />
+                <element signature="method#insert#0;class#SeqList#0" />
+                <element signature="method#show#0;class#SeqList#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +98,38 @@
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="237" selection-start-line="237" selection-end-line="237" />
+            <state relative-caret-position="158">
+              <caret line="286" column="28" selection-start-line="286" selection-start-column="28" selection-end-line="286" selection-end-column="28" />
+              <folding>
+                <element signature="class#Node#0" />
+                <element signature="method#addFirst#0;class#LinkedList#0" />
+                <element signature="method#addLast#0;class#LinkedList#0" />
+                <element signature="method#addIndex#0;class#LinkedList#0" />
+                <element signature="method#getIndexPos#0;class#LinkedList#0" />
+                <element signature="method#contains#0;class#LinkedList#0" />
+                <element signature="method#remove#0;class#LinkedList#0" />
+                <element signature="method#RemoveAll#0;class#LinkedList#0" />
+                <element signature="method#searchPrev#0;class#LinkedList#0" />
+                <element signature="method#getLength#0;class#LinkedList#0" />
+                <element signature="method#display#0;class#LinkedList#0" />
+                <element signature="method#reverseList#0;class#LinkedList#0" />
+                <element signature="e#5142#5159#0" />
+                <element signature="method#hebing#0;class#LinkedList#0" />
+                <element signature="method#mid#0;class#LinkedList#0" />
+                <element signature="method#Finn#0;class#LinkedList#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+              <folding>
+                <element signature="e#65#110#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,10 +160,10 @@
         <option value="$PROJECT_DIR$/src/Day05.java" />
         <option value="$PROJECT_DIR$/src/Day06.java" />
         <option value="$PROJECT_DIR$/src/Opperate.java" />
-        <option value="$PROJECT_DIR$/src/SeqList.java" />
         <option value="$PROJECT_DIR$/src/Day07.java" />
         <option value="$PROJECT_DIR$/src/Day08.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/SeqList.java" />
         <option value="$PROJECT_DIR$/src/LinkedList.java" />
       </list>
     </option>
@@ -152,6 +188,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,8 +212,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -304,11 +340,12 @@
       <workItem from="1569567528271" duration="894000" />
       <workItem from="1569649879036" duration="10198000" />
       <workItem from="1569663845806" duration="2199000" />
+      <workItem from="1569753218766" duration="3821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51252000" />
+    <option name="totallyTimeSpent" value="55073000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -323,27 +360,27 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4995958" weight="0.039355993" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3291592" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.497979" weight="0.039355993" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3291592" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5004042" side_tool="true" weight="0.039355993" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004042" side_tool="true" weight="0.23971377" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5116279" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18027486" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.23971377" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18027486" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -351,36 +388,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18027486" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4995958" visible="true" weight="0.039355993" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15205725" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" visible="true" weight="0.039355993" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3291592" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -812,21 +819,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Day07" />
-    <entry file="file://$PROJECT_DIR$/src/Day07.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-          <folding>
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Day06.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -856,28 +848,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SeqList.java">
+    <entry file="file://$PROJECT_DIR$/src/Day07.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        <state relative-caret-position="186">
+          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
           <folding>
             <element signature="e#65#110#0" />
-            <element signature="e#342#344#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SeqList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="method#SeqList#0;class#SeqList#0" />
+            <element signature="method#add#0;class#SeqList#0" />
+            <element signature="method#insert#0;class#SeqList#0" />
+            <element signature="method#show#0;class#SeqList#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        <state relative-caret-position="158">
+          <caret line="286" column="28" selection-start-line="286" selection-start-column="28" selection-end-line="286" selection-end-column="28" />
+          <folding>
+            <element signature="class#Node#0" />
+            <element signature="method#addFirst#0;class#LinkedList#0" />
+            <element signature="method#addLast#0;class#LinkedList#0" />
+            <element signature="method#addIndex#0;class#LinkedList#0" />
+            <element signature="method#getIndexPos#0;class#LinkedList#0" />
+            <element signature="method#contains#0;class#LinkedList#0" />
+            <element signature="method#remove#0;class#LinkedList#0" />
+            <element signature="method#RemoveAll#0;class#LinkedList#0" />
+            <element signature="method#searchPrev#0;class#LinkedList#0" />
+            <element signature="method#getLength#0;class#LinkedList#0" />
+            <element signature="method#display#0;class#LinkedList#0" />
+            <element signature="method#reverseList#0;class#LinkedList#0" />
+            <element signature="e#5142#5159#0" />
+            <element signature="method#hebing#0;class#LinkedList#0" />
+            <element signature="method#mid#0;class#LinkedList#0" />
+            <element signature="method#Finn#0;class#LinkedList#0" />
+          </folding>
         </state>
       </provider>
     </entry>
