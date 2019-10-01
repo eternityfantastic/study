@@ -40,7 +40,7 @@
  
 ### JavaWeb
 [HTML](https://github.com/eternityfantastic/study/blob/master/note/HTML.md)    
-[CSS](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)    
+[CSS](https://github.com/eternityfantastic/study/blob/master/note/CSS.md)    
 [JavaScript](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)   
 [mysql](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)    
 [jdbc](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)    
