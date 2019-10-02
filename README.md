@@ -43,6 +43,7 @@
 [CSS](https://github.com/eternityfantastic/study/blob/master/note/CSS.md)    
 [JavaScript](https://github.com/eternityfantastic/study/blob/master/note/JavaScript.md)   
 [Bootstrap](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)  
+[XML](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)  
 [mysql](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)    
 [jdbc](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)    
 [jquery](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)    
