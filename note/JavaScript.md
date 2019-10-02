@@ -130,5 +130,54 @@ Javascript提供了四种基本的数据类型和两种特殊数据类型用来�
 			2. 方法
 				1. test(参数)：验证指定的字符串是否符合正则表达式的规范		
 					
-							
+### DOM简单学习
+	* 概念：Document Object Model文件对象模型
+		* 将标记语言文档的各个组成部分，封装为对象。可以使用这些对象，对标记语言文档进行CRUD的动态操作
+	* W3W DOM 标记被分为3个不同的部分：
+		* 核心DOM-针对任何结构化文档的标准模型
+			* Document:文档模型
+			* Element：元素对象
+			* Attribute：属性对象
+			* Text：文本对象
+			* Comment：注释对象
+			* Node:节点对象，其他5个的父对象
+		* XML DOM-针对XML文档的标准模型
+		* HTML DOM-针对HTML文档的标准模型	
+	#### 核心DOM模型
+		* Document：文件对象
+			1. 创建（获取）：在HTML DOM模型中可以使用window对象来获取
+				1. window。document
+				2. document
+			2. 方法：
+				1. 获取Element对象：
+					1. getElementById():根据id属性值获取元素对象。id属性值一般唯一
+					2. getElementsByTagName():根据元素名称获取元素对象们。返回值是一个数组。	 	
+					3. getElementsByClassName():根据Class属性值获取元素对象们。返回值是一个数组	 	
+					4. getElementsByName():根据name属性值获取元素对象们。返回值是一个数组。	
+				2. 创建其他DOM对象：
+					createAttribute（name）	 	
+					createComment（）	 	
+					createElement（）	 	
+					createTextNode（）
+				3. 属相
+		* Element:元素对象
+			1. 获取/创建：通过document来获取车创建
+			2. 方法：
+				1. removeAttribute():删除属性
+				2. setAttribute():设置属性
+		*Node：节点对象，其他５个对象的父对象
+			* 特点：所有dom对象都可以被认为是一个节点
+			* 方法：
+				*CURD DOM树：
+					* appendChild():向节点的子节点列表的结尾添加心得子节点
+					* removeChild():删除（并返回）当前节点的指定子节点
+					* replaceChild():用新节点替换一个子节点。
+			* 属性：
+				* parentNode返回节点的父节点。
+	#### HTML DOM
+		1. 标签体的设置和获取：innerHTML
+		2. 使用HTML元素对象的属性
+		3. 控制元素样式
+								
+### BOM简单学习								
 													 
