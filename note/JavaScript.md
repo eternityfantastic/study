@@ -105,7 +105,8 @@ Javascript提供了四种基本的数据类型和两种特殊数据类型用来�
 				PI
 	6. Number
 	7. String
-	9. RegExp:正则表达式对象
+
+	8. RegExp:正则表达式对象
 		1. 正则表达式：定义字符串的组成规则				
 				1. 单个字符[]
 					如：[a]只能由a组成，[ab]由a或b组成，[a-zA-Z0-9]由字母或数字组成       
@@ -130,7 +131,6 @@ Javascript提供了四种基本的数据类型和两种特殊数据类型用来�
 			2. 方法
 				1. test(参数)：验证指定的字符串是否符合正则表达式的规范		
 					
-<<<<<<< HEAD
 ### DOM简单学习
 	* 概念：Document Object Model文件对象模型
 		* 将标记语言文档的各个组成部分，封装为对象。可以使用这些对象，对标记语言文档进行CRUD的动态操作
@@ -147,7 +147,7 @@ Javascript提供了四种基本的数据类型和两种特殊数据类型用来�
 	#### 核心DOM模型
 		* Document：文件对象
 			1. 创建（获取）：在HTML DOM模型中可以使用window对象来获取
-				1. window。document
+				1. window.document
 				2. document
 			2. 方法：
 				1. 获取Element对象：
@@ -181,8 +181,92 @@ Javascript提供了四种基本的数据类型和两种特殊数据类型用来�
 		3. 控制元素样式
 								
 ### BOM简单学习								
-													 
-=======
-							
-													 
->>>>>>> f062def6d5bf2848d9e208202ad6dcac91d2e950
+	1. 概念：Browser Object Model浏览器对象模型
+		* 将浏览器的各个组成部分封装成对象
+	2. 组成：
+		* window：窗口对象
+		* Navigator:浏览器对象
+		* Screen:显示器屏幕对象
+		* History:历史记录对象
+		* Location:地址栏对象
+#### Window
+	1. 创建
+	2. 方法
+		1. 与弹出框有关的方法：     
+			alert（）显示带有一段消息和一个确认按钮的警告框   
+			confirm（）显示带有一段消息以及确认按钮和取消按钮的对话框，分别返回true和false    
+			prompt（）显示可提示用户输入的对话框 ，返回用户的输入的值   
+		2. 与打开关闭有关的方法          
+			close（）关闭浏览器窗口。
+			open（）打开一个新的浏览器窗口，返回心得window对象
+		3. 与定时器有关的方式    
+			setTimeout()在指定的毫秒数后调用函数或计算表达式,参数：js代码或者方法对象，毫秒值；返回值：唯一标识，用于取消定时器   
+			clearTimeout()取消由setTimeout()设置的timeout
+			setInterval()按照指定周期（以毫秒计）来调用函数或计算表达式    
+			clearInterval()取消由setInterval()设置的timeout
+	3. 属性：		
+		1. 获取其他BOM对象
+			History  
+			Location   
+			Navigator	
+			Screen  
+		2. 获取DOM对象
+			document   
+	4. 特点
+		* window对象不需要创建可以直接使用。window.方法名（）；
+		* window引用可以省略。方法名（）；
+
+#### Navigator:浏览器对象
+#### Screen:显示器屏幕对象
+#### History:历史记录对象
+	1. 创建
+		1. window.history
+		2. history
+	2. 方法：
+		* back（）加载history列表中的前一个URL。
+		* forward（）加载history列表中的下一个URL。
+		* go(参数)加载history列表中的某一个具体页面。
+			* 参数
+				* 正数：前进几个历史记录
+				* 负数：后退几个历史记录
+	3. 属性
+		* length返回当前窗口历史列表中的URL数量				
+#### Location:地址栏对象
+	1. 创建（获取）：
+		1. window.location
+		2. location
+	2. 方法：
+		* reload（）重新加载当前文档。即刷新
+	3. 属性
+		* href设置或返回完整的URL
+### 事件	
+	* 概念：某些组件被执行了某些操作后，触发某些代码的执行
+		* 某些操作。如：单击，双击，键盘按下了，鼠标移动了
+		* 事件源：组件。如：按钮 文本输入框
+		* 监听器：代码。
+		* 注册监听：将事件，事件源，监听器结合在一起。当事件源上发生了某些事件，则触发某些监听器代码
+	* 常见的事件
+		1. 点击事件
+			1. onclick：单击事件
+			2. ondblclick：双击事件
+		2. 焦点事件
+			1. onblur：失去焦点
+			2. onfocus：元素获得焦点。
+		3. 加载事件
+			1. onload:一张页面或一幅图像完成加载。
+		4. 鼠标事件：
+			* onmousedown 鼠标按键被按下				
+			* onmousemove 鼠标被移动				
+			* onmouseout  鼠标从某元素移开				
+			* onmouseover 鼠标移到某元素之上				
+			* onmouseup   鼠标按键被松开				
+		5. 键盘事件
+									  
+			
+				
+			
+			
+			
+			
+			
+			
