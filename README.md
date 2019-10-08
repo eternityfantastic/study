@@ -19,8 +19,8 @@
   
 # :unlock: java学习开放仓库
 [Markdown教程](https://www.runoob.com/markdown/md-tutorial.html)              
-[菜鸟教程](https://www.runoob.com)
-[稳定v~防p~封n]（https://nutsvpn.site/）
+[菜鸟教程](https://www.runoob.com)  
+[稳定vpn](https://nutsvpn.site)
 
 
 ## C语言 
