@@ -20,6 +20,8 @@
 # :unlock: java学习开放仓库
 [Markdown教程](https://www.runoob.com/markdown/md-tutorial.html)              
 [菜鸟教程](https://www.runoob.com)
+[稳定v~防p~封n]（https://nutsvpn.site/）
+
 
 ## C语言 
 [C语言](https://github.com/eternityfantastic/study/blob/master/note/C语言.md)
@@ -44,7 +46,7 @@
 [JavaScript](https://github.com/eternityfantastic/study/blob/master/note/JavaScript.md)   
 [Bootstrap](https://github.com/eternityfantastic/study/blob/master/note/bootstrap.md)  
 [XML](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)  
-[mysql](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)    
+[mysql](https://github.com/eternityfantastic/s/blob/master/note/循环结构.md)    
 [jdbc](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)    
 [jquery](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)    
 [tomat](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)    
