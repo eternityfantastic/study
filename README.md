@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://gitstar-ranking.com/repositories"> <img src="file:///C:/Users/Administrator/Desktop/rank.html"></a>
+    <a href="https://gitstar-ranking.com/repositories"> <img src="https://badgen.net/badge/Rank/20?icon=github&color=4ab8a1"></a>
     <a href="assets/download.md"> <img src="https://badgen.net/badge/OvO/%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD?icon=telegram&color=4ab8a1"></a>
     <a href="https://github.com/eternityfantastic/study"> <img src="https://badgen.net/badge/CyC/%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB?icon=sourcegraph&color=4ab8a1"></a>
     
@@ -19,7 +19,9 @@
   
 # :unlock: java学习开放仓库
 [Markdown教程](https://www.runoob.com/markdown/md-tutorial.html)              
-[菜鸟教程](https://www.runoob.com)
+[菜鸟教程](https://www.runoob.com)  
+[稳定vpn](https://nutsvpn.site)
+
 
 ## C语言 
 [C语言](https://github.com/eternityfantastic/study/blob/master/note/C语言.md)
@@ -44,7 +46,7 @@
 [JavaScript](https://github.com/eternityfantastic/study/blob/master/note/JavaScript.md)   
 [Bootstrap](https://github.com/eternityfantastic/study/blob/master/note/bootstrap.md)  
 [XML](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)  
-[mysql](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)    
+[mysql](https://github.com/eternityfantastic/s/blob/master/note/循环结构.md)    
 [jdbc](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)    
 [jquery](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)    
 [tomat](https://github.com/eternityfantastic/study/blob/master/note/HTML基础.md)    
