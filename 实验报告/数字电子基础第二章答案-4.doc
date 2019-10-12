@@ -1,0 +1,221 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<META NAME="ROBOTS" CONTENT="NOINDEX,NOFOLLOW">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<title>数字电子基础第二章答案</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>三亿文库</o:Author>
+  <o:LastAuthor>三亿文库</o:LastAuthor>
+  <o:Revision>6</o:Revision>
+  <o:TotalTime>59</o:TotalTime>
+  <o:Created>2017/10/23 1:50:35</o:Created>
+  <o:LastSaved>2017/10/23 1:50:35</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>101</o:Words>
+  <o:Characters>576</o:Characters>
+  <o:Company>三亿文库</o:Company>
+  <o:Lines>4</o:Lines>
+  <o:Paragraphs>1</o:Paragraphs>
+  <o:CharactersWithSpaces>676</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:16.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+h1
+	{mso-style-next:正文;
+	margin-top:17.0pt;
+	margin-right:0cm;
+	margin-bottom:16.5pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:240%;
+	mso-pagination:lines-together;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:22.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 89.85pt 72.0pt 89.85pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:42.55pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='tab-interval:21.0pt;text-justify-trim:punctuation'>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";color:#993300'>《数字电子基础第二章答案》来自三亿文库</span></b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;color:#993300'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:150%;margin-top:3.6pt;'><span lang=EN-US style='font-size:9.0pt;line-height:150%'><a href="http://m.3y.uu456.com/mss_k1ci1jn5hi1chdmnr4obwfiko9sod0klk_1.html"><span lang=EN-US style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";text-decoration:none;text-underline:none'><span lang=EN-US>点这里，有很多篇《数字电子基础第二章答案》</span></span></a><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left'><span style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";color:#993300'>在线阅读本文：</span><span lang=EN-US style='font-size:12.0pt;color:#999999'><a href="http://m.3y.uu456.com/mbp_4vubu041e13fre28i3pw_4.html"><span
+style='text-decoration:none;text-underline:none'>http://m.3y.uu456.com/mbp_4vubu041e13fre28i3pw_4.html</span></a><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-top:15.6pt;margin-right:0cm;margin-bottom:23.4pt;margin-left:0cm;mso-para-margin-top:1.0gd;mso-para-margin-right:
+0cm;mso-para-margin-bottom:1.5gd;mso-para-margin-left:0cm;text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:22.0pt;font-family:
+宋体'>数字电子基础第二章答案<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<div style='margin-top:2.5pt;margin-bottom:2.5pt'>
+
+<div style='margin-top:7.8pt;margin-right:0cm;margin-bottom:12.45pt;margin-left:0cm;mso-para-margin-top:.5gd;mso-para-margin-right:0cm;mso-para-margin-bottom:.5gd;mso-para-margin-left:0cm;text-align:justify;text-justify:inter-ideograph;text-indent:32.0pt;mso-char-indent-count:2.0;line-height:22.0pt;mso-line-height-rule:exactly;mso-pagination:none;font-size:16.0pt;mso-bidi-font-family:"Times New Roman";mso-font-kerning:1.0pt'><p>（1）Fa?F1?F2之最简与或式和最简与非－非与式。 （2）Fb?F1?F2之最简或与式和之最简或非－或非式。 （3）Fc?F1?F2之最简与或非式。 </p><p>解：两函数之间的与，或，异或运算可由两个函数的卡诺图运算（即两个卡诺图中相应的方格作与，或，异或运算）来实现，分别求出Fa，Fb，Fc之卡诺图，分别如下图所示： </p><p>Fa图 </p><p>CD AB 00   10   11   10     00 0 0 1 0     01 0 1 1 0     11 </p><p>0 0 0 0 10 </p><p>0 0 0 0 Fb图 </p><p>CD AB 00   10   11   10     00 1 1 1 1     01 1 1 1 1     11 </p><p>1 1 1 1 10 </p><p>0 1 0 0 Fc图 </p><p>CD AB 00   10   11   10     00 1 1 0 1     01 1 0 0 1     11 </p><p>1 1 1 1 10 0 1 0 0  </p><p>解：（1）求出各函数的表达式为： </p><p>Fa?F1?F2?ABC?BCD </p><p>Fb?F1?F2?(A?C?D)?(B?C?D) Fc?F1?F2?BCD?ABD?BCD </p><p>2－12 设有三个输入变量A,B,C，试按下述逻辑问题列出真值表，并写出它们各自的最小项表达式，最大项表达式。 </p><p>（1）当A+B=C时，输出Fb为1，其余情况为0。 </p><p>（2）当A?B?B?C时，输出FC为1，其余情况下为0。 解：Fa，Fb，Fc随A,B,C变化的真值表如下图所示： </p><p>A 0 0 0 0 1 1 1 1 B 0 0 1 1 0 0 1 1 C 0 1 0 1 0 1 0 1 Fa 1 0 0 0 0 0 0 1 Fb 1 0 0 1 0 1 0 1 Fc 1 0 1 0 0 1 0 1 （1）Fb?(2) Fc??m(0,3,5,7)??M(1,2,4,6) </p><p>?m(0,2,5,7)??M(1,3,4,6) </p><p>2－13 将下列具有无关项的逻辑函数化简为与或表达式。 （1）F(A,B,C,D)?(2) F(A,B,C,D)??M(0,1,4,7,9,10,13)??d(2,5,8,12,15) </p><p>?m(0,2,4,5,10,12,15)??d(8,14)F?BCD?BCD </p><p>?m(1,3,6,8,11,14)??d(2,4,5,13,15) </p><p>（3）F(A,B,C,D)?(2) F?ABD?BCD?ACD?ABCD （3）F?CD?BD?AD?ABC?ABC </p><p>2－14 将下列具有约束条件的逻辑函数化简为最简或与表达式： </p><p>（1）???F?ABC?ABC?ABCD?ABCD </p><p>??变量ABCD不可能出现相同的值?F?(A?B)CD?ABC?ACD? </p><p>??AB?CD?0（2）?解：（1）F?AC?BD (2) F?C </p><p></p></div>
+
+<p style='margin-top:7.8pt;margin-right:0cm;margin-bottom:12.45pt;margin-left:0cm;mso-para-margin-top:.5gd;mso-para-margin-right:0cm;mso-para-margin-bottom:.8gd;mso-para-margin-left:0cm;text-align:justify;text-justify:inter-ideograph;text-indent:32.0pt;mso-char-indent-count:2.0;line-height:24.0pt;mso-line-height-rule:exactly;mso-pagination:none'><span lang=EN-US style='font-size:16.0pt;mso-bidi-font-family:"Times New Roman";mso-font-kerning:1.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoFooter align=center style='text-align:center'><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";color:#993300'>三亿文库</span><span lang=EN-US><a
+href="http://m.3y.uu456.com/">http://m.3y.uu456.com/</a></span></p>
+
+<p class=MsoFooter align=center style='text-align:center'><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";color:#993300'>免费文档下载</span><span lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:10.0pt;color:#993300'><o:p></o:p></span></p>
+
+</div></div>
+</body></html>
