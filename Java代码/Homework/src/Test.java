@@ -1,15 +1,16 @@
 public class Test {
     public static void main(String[] args) {
-    DuLinkList list = new DuLinkList();
-    list.addFirst(4);
-    list.addFirst(3);
-    list.addFirst(2);
-    list.addFirst(1);
-    list.addLast(5);
-    list.addLast(6);
-    list.addLast(7);
-    list.addLast(8);
-    list.forwardDisplay();
-    list.reverseDisplay();
+//        String s1 = "a";
+//        String s = "ab";
+//        String s2 = s1+"b";
+//        String s3 = "a"+"b";
+//        System.out.println(s2 == "ab");
+//        System.out.println(s3 == s);
+//        int a = Integer.MAX_VALUE;
+//        short b = Short.MIN_VALUE;
+//        System.out.println(a+1);
+//        System.out.println(b);
+        char a = 1;
+        char b = a + 1;
     }
 }
