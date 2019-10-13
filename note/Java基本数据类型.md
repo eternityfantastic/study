@@ -70,6 +70,8 @@ int a = Integer.MAX_VALUE;
 short b = Short.MAX_VALUE;
 System.out.println(a+1);	//-2147483648
 System.out.println(b+1);	//32768,由于b进行了整型提升已经不是short了，所以b不是-32768
+short c = 10;
+short d = c + 1 ;					// 编译错误，1是int型；
 ```
 ```
 demo：              
