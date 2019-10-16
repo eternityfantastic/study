@@ -32,7 +32,7 @@
 [基本程序设计](https://github.com/eternityfantastic/study/blob/master/note/基本程序设计.md)  
 [面向对象程序设计技术](https://github.com/eternityfantastic/study/blob/master/note/面向对象程序设计.md)  
 [继承和多态](https://github.com/eternityfantastic/study/blob/master/note/继承和多态.md)               
-[抽象类和接口](https://github.com/eternityfantastic/stblob/master/note/方法.md)
+[抽象类和接口](https://github.com/eternityfantastic/stblob/master/抽象类和接口.md)
 [I/O流](https://github.com/eternityfantastic/tdy/blob/master/note/运算符和表达式.md)           
 [异常](https://github.com/eternityfantastic/studblob/master/note/分支结构.md)           
 [线程](https://github.com/eternityfantastic/s/blob/master/note/循环结构.md)               
