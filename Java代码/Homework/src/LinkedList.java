@@ -397,31 +397,37 @@ public class LinkedList {
 
     public void deleteDuplication() {
         if (head == null || head.next == null) {
-            return;
+            return ;
         }
-        Node cur = head;
-        Node prev = head;
-        while (cur != null && head.date == head.next.date) {
-            while (cur.next != null && cur.date == cur.next.date) {
-                cur = cur.next;
+        while (head != null && head.next != null && head.date == head.next.date) {
+            while (head.next != null && head.date == head.next.date) {
+                head = head.next;
             }
-            cur = cur.next;
-            head = cur;
-            prev = head;
+            head = head.next;
         }
-        cur = cur.next;
-        while (cur.next != null) {
-            if (cur.date == cur.next.date) {
+        Node cur = head.next;
+        Node prev = head;
+        int index  = 0;
+        while (cur!=null ) {
+            if (cur.next != null && cur.date == cur.next.date) {
                 while (cur.next != null && cur.date == cur.next.date) {
                     cur = cur.next;
                 }
                 cur = cur.next;
-            } else {
-                prev.next = cur;
-                prev = cur;
+                index = 1;
+            }
+            if(index == 0){
+                //此时cur为不重复元素,只需移动prev和cur即可
+                prev = prev.next;
                 cur = cur.next;
             }
+            if(index == 1){
+//                此时的cur指向或为null,或为一个不重复元素；
+                prev.next = cur;
+                index = 0;
+            }
         }
+
     }
 }
 
