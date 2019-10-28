@@ -29,7 +29,7 @@
 ## :coffee: Java 
 ### Java基础        
 [java语言简介](https://github.com/eternityfantastic/study/blob/master/note/Java语言简介.md)  
-[基本程序设计](https://github.com/eternityfantastic/study/blob/master/note/基本程序设计.md)  
+[基本程序设计](https://github.com/eternityfantastic/study/blob/master/note/java基本程序设计.md)  
 [面向对象程序设计技术](https://github.com/eternityfantastic/study/blob/master/note/面向对象程序设计.md)  
 [继承和多态](https://github.com/eternityfantastic/study/blob/master/note/继承和多态.md)               
 [抽象类和接口](https://github.com/eternityfantastic/stblob/master/抽象类和接口.md)
@@ -91,7 +91,7 @@
 
 ##  :key: 数据结构   
 [基本概念和术语](https://github.com/eternityfantastic/study/blob/master/note/数据结构基本术语和概念.md)  
-[线性表](https://github.com/eternityfantastic/study/edit/master/note/线性表.md)      
+[线性表](https://github.com/eternityfantastic/study/blob/master/note/线性表.md)      
 [栈和队列](https://github.com/eternityfantastic/study/blster/note/HTML基础.md)       
 [串](https://github.com/eternityfantastic/study/blster/note/HTML基础.md)  
 [数组和广义表](https://github.com/eternityfantastic/study/blster/note/HTML基础.md)    
