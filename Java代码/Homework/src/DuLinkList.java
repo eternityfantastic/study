@@ -53,7 +53,7 @@ public class DuLinkList {
             }
         }
         if (last.date == val) {
-            last= last.prev;
+            last = last.prev;
             last.next = null;
         } else {
             DuNode cur = head;
@@ -67,18 +67,44 @@ public class DuLinkList {
             Prev.next = cur.next;
         }
     }
-    public void removeAllKey(int val) {
-        if(head != null ){
-            if(head.next!= null){
-                DuNode cur  = head.next;
-                while(cur!= null){
-                    if(cur.date == val){
 
+    public void removeAllKey(int val) {
+        if (head == null) {
+            return;
+        } else {
+            DuNode cur = head;
+            while (cur != null) {
+                if (cur.date == val) {
+                    if (cur == head) {
+                        //删除头节点
+                        break;
+                    } else {
+                        /**
+                         * if(cur.next != null) {
+                         *    cur.next.prev = cur.prev;
+                         *    }else {
+                         *    //cur.prev .next = nulll
+                         *    this.last = cur.prev;
+                         *       }
+                         *    cur.prev.next = cur.next;
+                         *     }
+                         */
+                        if (cur.next == null) {
+                            last = cur.prev;
+                        } else {
+                            cur.next.prev = cur.prev;
+                        }
+                        cur.prev.next = cur.next;
                     }
+                    break;
+                } else {
+                    cur = cur.next;
                 }
             }
         }
     }
+
+
     public void display() {
         System.out.print("[");
         DuNode cur = head.next;
@@ -91,6 +117,24 @@ public class DuLinkList {
         }
         System.out.println("]");
     }
+
+    public void clear() {
+        //如果只让
+//        head = null;//此时第一个节点还是有引用的，不会被删除
+//        last = null;//
+        //
+        DuNode cur = head;
+        while(cur != null){
+            DuNode curNext = cur.next;
+            cur.next = null;
+            cur.prev = null;
+            cur = curNext;
+        }
+        head = null;
+        last = null;
+    }
+
+
 //    public DuNode addFirst(int val) {
 //        DuNode node = new DuNode(val);
 //        DuNode next = head.next;
