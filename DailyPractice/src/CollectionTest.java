@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.LinkedList;
 
 public class CollectionTest {
     public static void iterCollection(Collection col){
@@ -13,7 +14,7 @@ public class CollectionTest {
         Collection<Integer> collection = new ArrayList<Integer>();
         System.out.println(collection.isEmpty());
         System.out.println(collection.size());
-        ((ArrayList<Integer>) collection).add(1);
+        collection.add(1);
         (collection).add(3);
         (collection).add(4);
         (collection).add(5);
@@ -21,17 +22,16 @@ public class CollectionTest {
         (collection).add(7);
         System.out.println(collection.size());
         System.out.println(collection);
-        Collection<Integer> c = new ArrayList();
+        Collection<Integer> c = new ArrayList<>();
+//        Collection<Integer> c = new LinkedList<>();
         c.add(3);
         c.add(6);
         //使用addAll会把另一个集合中的元素(内容)添加进集合中,而如果直接add一个集合,他会把集合当作一个元素进行添加
-        ((ArrayList<Integer>) collection).addAll(c);
+        collection.addAll(c);
+//        boolean add = ((ArrayList<Integer>) collection).add((ArrayList<Integer>)c);
         System.out.println(collection.containsAll(c));
 
         System.out.println("======================");
-
-
-
 
         Map<String, String> map = new HashMap();
         map.put("1", "one");
