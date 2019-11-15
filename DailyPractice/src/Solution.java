@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 //import java.util.Arrays;
@@ -45,39 +46,83 @@ import java.util.List;
 //        return A;
 //    }
 //}
-class Solution {
 
-    public List<List<Integer>> generate1(int numRows) {
+class Solution1 {
+    public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> list = new ArrayList<>();
-        ArrayList<Integer> objects = new ArrayList<>();
-        objects.add(1);
-        list.add(objects);
-        if (numRows == 1) {
-            return list;
-        } else {
+        if(numRows > 0){
+
+            ArrayList<Integer> objects = new ArrayList<>();
+            objects.add(1);
+            list.add(objects);
+
             for (int i = 1; i < numRows; i++) {
+                // i+1 行，有i+1个元素
                 ArrayList<Integer> obj = new ArrayList<>();
                 obj.add(1);
+                ArrayList<Integer>prev = (ArrayList<Integer>) list.get(i - 1);
                 for (int j = 1; j < i; j++) {
-                    obj.add(list.get(i-1).get(j-1)+list.get(i-1).get(j));
+                    // 添加i-1 个元素；
+                    obj.add(prev.get(j - 1) + prev.get(j));
                 }
                 obj.add(1);
                 list.add(obj);
             }
+
         }
-
-
-
         return list;
     }
-
 }
 
+class MyStack{
+    String []  str ;
+    int size = 0;
+    int capicity;
+    MyStack(){
+        str = new String[100];
+        size = 0;
+        capicity = 100;
+    }
+
+    public void push(String s){
+        if(capicity == size ){
+
+        }
+        str[size++] = "s";
+    }
+    public boolean pop(String s){
+        if(size == 0 ){
+            return  false;
+        }
+        if(str[--size].equals(s)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+}
+class Solution {
+    public int rotatedDigits(int N) {
+
+        int count = 0;
+        for(int i = 2 ; i <= N; i++) {
+            Integer n = i;
+            String s = n.toString();
+
+            if (s.contains("2") || s.contains("5") || s.contains("6") || s.contains("9")) {
+                System.out.println(s);
+                count++;
+            }
+        }
+        return count;
+
+    }
+}
 class SolutionTest {
     public static void main(String[] args) {
-        Solution s = new Solution();
-        List<List<Integer>> list = s.generate1(2);
-        System.out.println(list);
+        String s = new String("ABC");
+        String s1 = s.toLowerCase();
+        StringBuffer
     }
 
 }

@@ -12,7 +12,7 @@ class Node {
     }
 }
 
-class LinkedList {
+class LinkedList<I extends Number> {
     public Node head;
 
     //头插法
