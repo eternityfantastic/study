@@ -52,4 +52,4 @@ CREATE DATABASE db_test1;
 	* 显示表结构 desc
 	别名：用空格空开即可；
 	in 和 OR
-[SQL](wewe)	 
+##### [SQL](https://github.com/eternityfantastic/study/blob/master/note/SQL.md)	 
