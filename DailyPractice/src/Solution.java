@@ -101,7 +101,7 @@ class MyStack{
         }
     }
 }
-class Solution {
+class Solution2 {
     public int rotatedDigits(int N) {
 
         int count = 0;
@@ -118,10 +118,32 @@ class Solution {
 
     }
 }
+class Solution {
+    public String toGoatLatin(String S) {
+        String[] strArr = S.split(" ");
+        StringBuffer sb = new StringBuffer();
+        for(int i = 0 ; i < strArr.length ; i++ ){
+            String str = strArr[i];
+            char ch = str.charAt(0);
+            if(ch == 'a' || ch == 'e' || ch == 'i'|| ch == 'o'|| ch == 'u'){
+                //str.substring()
+                sb.append(str).append("ma").append("a".repeat(i+1)).append(" ");
+            }else{
+                sb.append(str.substring(1,str.length())).append(ch+"")
+                        .append("ma").append("a".repeat(i+1)).append(" ");
+            }
+        }
+        return sb.toString();
+    }
+}
 class SolutionTest {
     public static void main(String[] args) {
-        String s = new String("ABC");
-        String s1 = s.toLowerCase();
+//        String s = new String("ABC");
+//        String s1 = s.toLowerCase();
+//        System.out.println(s1.repeat(3));
+//        System.out.println("a".repeat(3));
+        Solution s1 = new Solution();
+        System.out.println( s1.toGoatLatin("I speak Goat Latin") );
     }
 
 }
