@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 
 //import java.util.Arrays;
@@ -118,7 +119,7 @@ class Solution2 {
 
     }
 }
-class Solution {
+class Solution3 {
     public String toGoatLatin(String S) {
         String[] strArr = S.split(" ");
         StringBuffer sb = new StringBuffer();
@@ -136,6 +137,34 @@ class Solution {
         return sb.toString();
     }
 }
+class Solution {
+    public void countBinarySubstrings(String Str) {
+        HashSet<String> t = new HashSet<>();
+        int num = 0 ;
+        char ch = 0;
+        int begin = 0;
+        for(int j = 0 ; j < Str.length()-1; j++){
+            String s = Str.substring(j);
+            System.out.println(s);
+            for(int i = 0 ; i < s.length(); i++){
+                if(num == 0 ){
+                    ch = s.charAt(i);
+                    begin = i;
+                }
+                if(s.charAt(i)==ch){
+                    num++;
+                }else{
+                    num--;
+                    if(num == 0){
+                        System.out.println(s.substring(begin,i+1)+"--");
+                        t.add(s.substring(begin,i+1));
+                    }
+                }
+            }
+        }
+        System.out.println(t);
+    }
+}
 class SolutionTest {
     public static void main(String[] args) {
 //        String s = new String("ABC");
@@ -143,7 +172,8 @@ class SolutionTest {
 //        System.out.println(s1.repeat(3));
 //        System.out.println("a".repeat(3));
         Solution s1 = new Solution();
-        System.out.println( s1.toGoatLatin("I speak Goat Latin") );
+        s1.countBinarySubstrings("00110011");
+        System.out.println("ABCDEF".substring(0,2));
     }
 
 }
