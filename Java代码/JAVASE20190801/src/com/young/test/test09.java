@@ -1,4 +1,4 @@
-package com.young.test;
+﻿package com.young.test;
 
 import javax.xml.soap.Node;
 
@@ -106,7 +106,7 @@ public class test09 {
 			return root;
 		}
 		TreeNode ret=find(root.left, value);
-		if (ret==null) {
+		if (ret==null) {//左子树中没找到
 			ret=find(root.right, value);
 		} else {
 			return ret;
