@@ -26,8 +26,7 @@ Enter password:******
 ```
 * 创建数据库
 ```sql
-CREATE DATABASE [IF NOT EXISTS] db_name [create_specification [, 
-create_specification] ...]
+CREATE DATABASE [IF NOT EXISTS] db_name [create_specification [, create_specification] ...]
 create_specification:
  [DEFAULT] CHARACTER SET charset_name
  [DEFAULT] COLLATE collation_name
