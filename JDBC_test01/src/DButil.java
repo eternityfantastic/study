@@ -26,17 +26,17 @@ public class DButil {
 
         try {
             MysqlDataSource mysqlDataSource = new MysqlDataSource();
-            ((MysqlDataSource)mysqlDataSource).setURL(URL);
+            ((MysqlDataSource) mysqlDataSource).setURL(URL);
             mysqlDataSource.setUser(USER);
             mysqlDataSource.setPassword(PASSWORD);
             connection = mysqlDataSource.getConnection();
 
 //            connection = DriverManager.getConnection(URL, USER, PASSWORD);
-            String sql = "insert into stu"+"id,name,sex,birthday,amout,resume"+"value(?,?,?,?,?,?)";
+            String sql = "insert into stu" + "id,name,sex,birthday,amout,resume" + "value(?,?,?,?,?,?)";
             statement = connection.prepareStatement(sql);
-            ((PreparedStatement) statement).setInt(1,1);
-            ((PreparedStatement) statement).setString(2,"小明");
-            ((PreparedStatement) statement).setByte(3,(byte) 3);
+            ((PreparedStatement) statement).setInt(1, 1);
+            ((PreparedStatement) statement).setString(2, "小明");
+            ((PreparedStatement) statement).setByte(3, (byte) 3);
 //
 //            statement.execute("insert into test value(1,tom,null)");
             resultSet = statement.executeQuery();

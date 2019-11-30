@@ -24,7 +24,7 @@
       <file leaf-file-name="MeageSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MeageSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="185">
               <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -191,7 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -209,14 +209,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="toStringCache&#9;PSI&#9;JAVA://java.lang.StringBuffer#toStringCache&#10;rr&#9;FILE&#9;jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Arrays.java&#10;+&#9;null&#9;null&#10;intern&#9;PSI&#9;JAVA://java.lang.String#intern" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JDBC_test01" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -375,18 +375,19 @@
       <workItem from="1574925880499" duration="920000" />
       <workItem from="1574930444441" duration="4783000" />
       <workItem from="1574937799128" duration="789000" />
+      <workItem from="1575076661784" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173205000" />
+    <option name="totallyTimeSpent" value="173239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3291592" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -398,7 +399,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291592" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21180275" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21503638" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -412,6 +413,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291592" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3291592" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -771,7 +773,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MeageSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="185">
           <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
