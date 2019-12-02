@@ -1,9 +1,8 @@
-import java.util.*;
-import java.util.LinkedList;
+import java.util.Arrays;
 
 public class MeageSort {
 
-//合并函数
+    //合并函数
     public void meager(int[] arr, int low, int mid, int high) {
 
         int s1 = low;
@@ -47,9 +46,9 @@ public class MeageSort {
 
         for (int gap = 1; gap < len; gap <<= 1) {
             int s1 = 0;
-            int e1 = 0;
-            int s2 = 1;
-            int e2 = 1;
+            int e1 = s1 + gap - 1;
+            int s2 = e1 + 1;
+            int e2 = s1 + gap - 1 > len ? len - 1 : s1 + gap - 1;
 
             while (s1 < len && s2 < len) {
                 while (s1 <= e1 && s2 <= e2) {
@@ -65,7 +64,7 @@ public class MeageSort {
                 while (s2 <= e2) {
                     temp[index++] = arr[s2++];
                 }
-                s1 = e2 + 1 ;
+                s1 = e2 + 1;
                 e1 = s1 + gap - 1;
                 s2 = e1 + 1;
                 e2 = s2 + gap - 1 == len ? len - 1 : len;
