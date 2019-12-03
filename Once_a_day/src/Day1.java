@@ -59,6 +59,8 @@ public class Day1 implements Sort {
                 elem[p] = temp;
                 p = c;
                 c = 2 * p + 1;
+            } else {
+                break;
             }
         }
     }
@@ -66,10 +68,27 @@ public class Day1 implements Sort {
     @Override
     public void heapSort(int[] array) {
 
+
     }
 
     @Override
     public void bubbleSort(int[] array) {
+        int len = array.length;
+        for (int i = 0; i < len; i++) {
+            boolean flg = true;
+            for (int j = 0; j < len - i - 1; j++) {
+                if (array[j] > array[j + 1]) {
+                    flg = false;
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+
+                }
+            }
+            if(flg){
+                break;
+            }
+        }
 
     }
 
