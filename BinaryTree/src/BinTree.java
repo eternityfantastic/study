@@ -29,6 +29,18 @@ public class BinTree {
         BinaryTreePrevOrder(root.right);
     }
 
+    public void toLinkedList(TreeNode root ){
+        if(root == null){
+            return ;
+        }
+        toLinkedList(root.left);
+        TreeNode prve = null;
+        root.left = prve;
+        if(prve != null){
+            prve.right = root;
+        }
+    }
+
 }
 
 class TreeNode {
