@@ -1,8 +1,17 @@
 public class Test {
-    public static void main(String[] args) {
-        A a = new B();
+    static {
+        System.out.println("加载了");
     }
+    static String sb = "sb";
+    public static void hello() {
+
+        System.out.println("hello");
+    }
+//    public static void main(String[] args) {
+//        A a = new B();
+//    }
 }
+
 abstract class A{
     protected abstract float f();
 }
