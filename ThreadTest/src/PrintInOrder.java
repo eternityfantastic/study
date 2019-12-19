@@ -85,12 +85,16 @@ public class PrintInOrder {
     }
 
     public static void main(String[] args) {
-        PrintInOrder object = new PrintInOrder();
-        Thread t1 = new PrintOne(object);
-        t1.start();
-        Thread t2 = new PrintTwo(object);
-        t2.start();
-        Thread t3 = new PrintThree(object);
-        t3.start();
+//        PrintInOrder object = new PrintInOrder();
+//        Thread t1 = new PrintOne(object);
+//        t1.start();
+//        Thread t2 = new PrintTwo(object);
+//        t2.start();
+//        Thread t3 = new PrintThree(object);
+//        t3.start();
+        for (int j = 501; j <= 1000 ; j++) {
+            System.out.println(j/5);
+        }
+
     }
 }
