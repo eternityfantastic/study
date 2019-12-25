@@ -1,4 +1,5 @@
 public class imp implements InterfaceTest,InterfaceTest02 {
+
     @Override
     public void method() {
 
@@ -15,22 +16,9 @@ public class imp implements InterfaceTest,InterfaceTest02 {
     }
 
     public static void main(String[] args) {
-//        imp.meth
-        InterfaceTest.method01();
+        imp im = new imp();
 
-        byte b1=1,b2=2,b3,b6,b8;
+        System.out.println(InterfaceTest.a);
 
-        final byte b4=4,b5=6,b7;
-//        b6 = b1 + b2;
-            b6 = b4 + b5;
-//        b3=(b1+b2);  /*语句1*///b1+b2是int
-//
-//        b6=b4+b5;    /*语句2*///
-//
-//        b8=(b1+b4);  /*语句3*///b1+b4是int
-//
-//        b7=(b2+b5);  /*语句4*///b1+b4是int且b7是final
-
-//        System.out.println(b3+b6);//没有初始化；
     }
 }

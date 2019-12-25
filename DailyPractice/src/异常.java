@@ -1,13 +1,32 @@
+import java.math.BigInteger;
+
 public class 异常 {
-    public static int method(){
-        int a = 0 ;
-        try {
-            a = 10 ;
-            return a;
-        }catch (Exception e){
-            return 3;
-        }finally {
-            return 9;
-        }
-    }
+
+
+            public int add(int a, int b) {
+                try {
+                    return a + b;
+                } catch (ArithmeticException e) {
+
+                    System.out.println("catch语句块");
+
+                    return a + b;
+                } finally {
+                    System.out.println("finally语句块");
+
+
+                }
+                return a + b;
+
+            }
+
+            public static void main(String argv[]){
+
+                异常 test =new 异常();
+                System.out.println("和是："+test.add(9, 0));
+                String s = "c";
+                BigInteger
+            }
+
+
 }
