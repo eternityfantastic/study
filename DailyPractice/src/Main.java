@@ -42,7 +42,7 @@ public class Main {
 
     }
 
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
 
         while (in.hasNextInt()) {// 注意，如果输入是多个测试用例，请通过while循环处理多个测试用例
             int T = in.nextInt();
@@ -59,5 +59,9 @@ public class Main {
 //        System.out.println(Arrays.toString(left));
 ////        for
     }
+        public static void main(String[] args) {
+            System.out.print(10*30+" ");
+            System.out.println(0X3fffffff);
+        }
 }
 
