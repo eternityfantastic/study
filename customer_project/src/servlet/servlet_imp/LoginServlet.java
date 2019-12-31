@@ -1,7 +1,8 @@
+package servlet.servlet_imp;
+
 public class LoginServlet extends HttpServlet {
     @Override
     public void doGet(Request req, Response resp) throws Exception {
-
         String username = req.parameters.get("username");
         if (username == null) {
             resp.setStatus("401 Unauthorized");

@@ -23,6 +23,7 @@ public class SessionServer {
 
         InputStream is = new FileInputStream(filename);
         ObjectInputStream ois = new ObjectInputStream(is);
+//        读出来是一个对象；
         User user = (User)ois.readObject();
         is.close();
 
