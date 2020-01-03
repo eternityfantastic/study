@@ -12,7 +12,6 @@ public class Task implements Runnable {
      */
     private Map<String, HttpServlet> urlMap = new HashMap<>();
     private HttpServlet notFoundServlet = new NotFoundServlet();
-//    private HttpServlet staticServlet = ;
 
     public Task(Socket socket) {
         this.socket = socket;
