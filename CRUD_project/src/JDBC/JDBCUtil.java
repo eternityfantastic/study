@@ -18,7 +18,7 @@ public class JDBCUtil {
 
     public  static DataSource getDATESOURCE() {
         if (DATESOURCE == null) {
-            synchronized (DataSource.class){
+            synchronized (JDBCUtil.class){
                 if(DATESOURCE == null){
                     DATESOURCE = new MysqlDataSource();
                     ((MysqlDataSource) DATESOURCE).setURL(URL);
@@ -41,7 +41,7 @@ public class JDBCUtil {
     }
 
     //2. 将关闭资源的代码提取！
-    public static void close(Connection conn, PreparedStatement pstm, ResultSet rs) {
+    public static void close(Connection conn, Statement pstm, ResultSet rs) {
         if (rs != null) {
             try {
                 rs.close();
@@ -67,7 +67,7 @@ public class JDBCUtil {
         }
     }
 
-    public static void close(Connection conn, PreparedStatement pstm) {
+    public static void close(Connection conn, Statement pstm) {
         if (pstm != null) {
             try {
                 pstm.close();
