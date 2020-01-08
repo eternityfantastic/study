@@ -1,4 +1,4 @@
-import java.io.IOException;
+﻿import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Random;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -10,7 +10,7 @@ public class ArrayQueue1 {
     private int rear = 0;
 //不能确保下一次唤醒的是生产者还是消费者，连续唤醒两个消费者的话，
 // 第一个生产者再获得队列为空的消息后，就会试图唤醒生产者，但是不能确保唤醒的一定是生产者，
-// 如果环形的还是一个消费者，他就不会再判断队列是否为空了，直接接着上一次wait（）后面的执行；
+// 如果唤醒的还是一个消费者，他就不会再判断队列是否为空了，直接接着上一次wait（）后面的执行；
 //    将if改为while
     public void put(int val) throws InterruptedException {
         if (size == array.length) {

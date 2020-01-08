@@ -1,10 +1,13 @@
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 public class ArrayQueue {
     private int[] array = new int[10];
-    private volatile int  size = 0;   // 有效元素个数
+    private int size = 0;   // 有效元素个数
     private int front = 0;
     private int rear = 0;
 
@@ -15,9 +18,7 @@ public class ArrayQueue {
 
         array[rear] = val;
         rear = (rear + 1) % array.length;
-        synchronized (this) {
-            size++;
-        }
+        size++;
     }
 
     public int take() {
@@ -27,14 +28,11 @@ public class ArrayQueue {
 
         int val = array[front];
         front = (front + 1) % array.length;
-        synchronized (this) {
-            size--;
-        }
+        size--;
         return val;
     }
 
     public int getSize() {
-        //需要添加确保可见性；
         return size;
     }
 
