@@ -2,29 +2,40 @@ package util;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.Date;
 
 public class Util {
-    private static final String[] sizeName = {"B", "KB", "MB", "GB"};
-    private static final String Data_PATH="yyyy-mm-dd HH:mm:ss";
-
-    private static DateFormat DATE_FORMAT = new SimpleDateFormat(Data_PATH);
-//文件大写格式转换
-    public static String parseSize(long size) {
-        int i = 0;
-        while (size >= 1024 && i < sizeName.length - 1) {
-            size /= 1024;
-            i++;
+    public static final String DATA_PATTERN = "yyyy-MM-dd HH:mm:ss";
+    private static final String[] SIZE_NAME = {"B","KB","MB","GB"};
+   // private static DateFormat DATA_FORMAT = new SimpleDateFormat(DATA_PATTERN);
+     /**
+     * 文件大小转化为KB、MB等
+     * @param size
+     * @return
+     */
+    public static String parseSize(Long size) {
+        int n = 0;
+        while (size >= 1024){
+            size = size/1024;
+            n++;
         }
-        return size + sizeName[i];
+        return size+SIZE_NAME[n];
     }
-//修改日期格式转换
-    public static String parseDate(long lastModified) {
-        return DATE_FORMAT.format(new Date(lastModified));
+
+
+    /**
+     * 日期解析
+     * @param lastModified
+     * @return
+     */
+    public static String parseDate(Long lastModified) {
+        DateFormat DATA_FORMAT = new SimpleDateFormat(DATA_PATTERN);
+        return DATA_FORMAT.format(new Date(lastModified));
     }
 
     public static void main(String[] args) {
-        System.out.println(parseSize(1025));
-        TreeSet
+        Long lastModified = 23323L;
+        String a = parseDate(lastModified);
+        System.out.println(a);
     }
 }

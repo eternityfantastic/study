@@ -1,5 +1,6 @@
 package app;
-import dao.FileOperateDao;
+
+import dao.FileOperateDAO;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.ObservableList;
@@ -12,15 +13,17 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.Window;
+import task.DBInit;
+import task.FileOperateTask;
 import task.FileScanCallback;
-import task.FileScanner;
+import task.FileScanTask;
 
 import java.io.File;
 import java.net.URL;
-import java.util.ResourceBundle;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
 
@@ -35,15 +38,18 @@ public class Controller implements Initializable {
 
     @FXML
     private Label srcDirectory;
-    private Thread t;
 
+    Thread t=null;
 
+    @Override
     public void initialize(URL location, ResourceBundle resources) {
+//        创建数据库
+        DBInit.init();
         // 添加搜索框监听器，内容改变时执行监听事件
         searchField.textProperty().addListener(new ChangeListener<String>() {
-
-
+            @Override
             public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
+//                搜索框发生变化时,刷新表格数据
                 freshTable();
             }
         });
@@ -54,25 +60,33 @@ public class Controller implements Initializable {
         DirectoryChooser directoryChooser=new DirectoryChooser();
         Window window = rootPane.getScene().getWindow();
         File file = directoryChooser.showDialog(window);
-        if(file == null){
+
+        if(file == null) {
             return;
         }
         // 获取选择的目录路径，并显示
         String path = file.getPath();
         srcDirectory.setText(path);
-        if(t == null){
+
+        if (t!=null) {
             t.interrupt();
         }
         t = new Thread(new Runnable() {
             @Override
             public void run() {
-//                创建fileScanner 执行start方法扫描根目录
-                FileScanCallback callback = new FileOperateDao();
-                FileScanner task = new FileScanner(callback);
-//                如果扫描结果是目录还会继续创建线程进行扫描，等到全部文件扫描完成进行刷新表格
-                task.startScan(new File("D:\\Study\\TCP\\src"));
-                task.waitFinish();
-//                freshTable();
+                FileScanCallback callback = new FileOperateTask();
+//                FileScanCallback 是 FileScanTask的一个属性
+//                 FileOperateTask implements FileScanCallback
+                FileScanTask task = new FileScanTask(callback);
+                task.startScan(file);
+                //等待task结束
+                try {
+                    task.waitFinish();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("执行完毕");
+                freshTable();
             }
         });
         t.start();
@@ -80,12 +94,11 @@ public class Controller implements Initializable {
 
     // 刷新表格数据
     private void freshTable(){
-//
         ObservableList<FileMeta> metas = fileTable.getItems();
         metas.clear();
-        List<FileMeta> datas = new ArrayList<>();
-        datas.add(new FileMeta("A","D:/",1323,new Date().getTime(),true));
-        metas.addAll();
-
+//        搜索文件夹
+        List<FileMeta> datas = FileOperateDAO.search(srcDirectory.getText(),
+                searchField.getText());//根据文本框和选择框搜索
+        metas.addAll(datas);
     }
 }

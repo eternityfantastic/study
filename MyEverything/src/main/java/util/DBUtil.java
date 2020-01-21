@@ -2,71 +2,91 @@ package util;
 
 import org.sqlite.SQLiteConfig;
 import org.sqlite.SQLiteDataSource;
+
 import javax.sql.DataSource;
 import java.io.File;
 import java.net.URISyntaxException;
 import java.net.URL;
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 
 public class DBUtil {
-    public static final String URL = "jdbc:sqlite://";
-    public static  volatile DataSource DATASOURSE ;
 
-    private DBUtil(){}
+    private static volatile DataSource DATA_SOURCE;
 
-    public static DataSource getDataSourse() throws URISyntaxException {
-        if(DATASOURSE == null){
+    private DBUtil(){
+
+    }
+
+    /**
+     * 获取本地
+     * @return
+     * @throws URISyntaxException
+     */
+    private static String getUrl() throws URISyntaxException {
+        String dbname = "文件搜索.db";
+        URL url = DBUtil.class.getClassLoader().getResource(".");
+        return  "jdbc:sqlite://"+new File(url.toURI()).getParent()+File.separator+dbname;
+    }
+
+    /**
+     * 获取数据库连接池
+     * @return
+     * @throws URISyntaxException
+     */
+    private static DataSource getDataSource() throws URISyntaxException {
+        if (DATA_SOURCE==null){
             synchronized (DBUtil.class){
-                if(DATASOURSE==null){
-//                    sqlite默认的时间日期格式是yyyy-mm-dd HH:mm:ss
+                if (DATA_SOURCE==null){
                     SQLiteConfig config = new SQLiteConfig();
-                    config.setDateStringFormat("yyyy-mm-dd HH:mm:ss");
-//                    创建连接池对象
-                    DATASOURSE = new SQLiteDataSource(config);
-                    ((SQLiteDataSource)DATASOURSE).setUrl(getUrl());
+                    config.setDateStringFormat(Util.DATA_PATTERN);
+                    DATA_SOURCE = new SQLiteDataSource(config);
+                    ((SQLiteDataSource)DATA_SOURCE).setUrl(getUrl());
                 }
             }
         }
-        return DATASOURSE;
+        return DATA_SOURCE;
     }
-    public static Connection getConnection() throws SQLException, URISyntaxException {
-        return getDataSourse().getConnection();
-    }
-    public static String getUrl () throws URISyntaxException {
-        String dbName = "dbname.db";
-//        ClassLoad是classes为相对路径
-        URL url = DBUtil.class.getClassLoader().getResource(".");
-        return "jdbc:sqlite://"+ new File(url.toURI()).getParent()+File.separator+dbName;
-    }
-    public static void close(Connection conn, Statement pstm, ResultSet rs) {
-        if (rs != null) {
-            try {
-                rs.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
+    /**
+     * 获取数据库链接
+     * 1、class.forname("驱动类全名")加载驱动.drivemanager。getconnection()
+     * 2、datasource
+     * @return
+     */
+    public static Connection getConnection() {
+        try {
+            return getDataSource().getConnection();
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new RuntimeException("数据库连接获取失败");
         }
-        if (pstm != null) {
-            try {
-                pstm.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-
-        if (conn != null) {
-            try {
-                conn.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-    public static void close(Connection conn, Statement pstm) {
-            close(conn,pstm,null);
     }
 
-        public static void main(String[] args) throws SQLException, URISyntaxException {
-            DBUtil.getConnection();
+    public static void close(Connection connection, Statement statement, ResultSet resultSet){
+        try {
+            if (resultSet != null) {
+                resultSet.close();
+            }
+            if (statement != null) {
+                statement.close();
+            }
+            if (connection != null) {
+                connection.close();
+            }
+        }catch (SQLException e){
+            e.printStackTrace();
+            throw new RuntimeException("释放数据库资源错误");
+        }
+    }
+    public static void close(Connection connection,Statement statement){
+        close(connection,statement,null);
+    }
+
+    public static void main(String[] args) throws URISyntaxException {
+        Connection connection = getConnection();
+
     }
 }

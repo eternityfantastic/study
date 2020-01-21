@@ -5,28 +5,29 @@ import util.DBUtil;
 import java.io.*;
 import java.sql.Connection;
 import java.sql.Statement;
+import java.util.Arrays;
 
-public class DBinit {
-
+public class DBInit {
     public static void init() {
-//
-        InputStream is = DBinit.class.getClassLoader().getResourceAsStream("init.sql");
         try {
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+            //获取数据库初始化的输入流
+            InputStream is = DBInit.class.getClassLoader().getResourceAsStream("init.sql");
+            BufferedReader in = new BufferedReader(new InputStreamReader(is, "UTF-8"));
             StringBuilder sb = new StringBuilder();
             String line;
-            while ((line = bufferedReader.readLine()) != null) {
-                int index = line.indexOf("--");
-                if (index != -1) {
-                    line = line.substring(0, index);
+            while ((line = in.readLine()) != null) {
+                int idx = line.indexOf("--");
+                if (idx != -1) {
+                    line = line.substring(0, idx);
                 }
                 sb.append(line);
             }
-            String[] split = sb.toString().split(";");
+            String[] sqls = sb.toString().split(";");
+            System.out.println(Arrays.toString(sqls));
             Connection connection = null;
             Statement statement = null;
             try {
-                for (String sql : split) {
+                for (String sql : sqls) {
                     connection = DBUtil.getConnection();
                     statement = connection.createStatement();
                     statement.executeUpdate(sql);
@@ -34,9 +35,9 @@ public class DBinit {
             } finally {
                 DBUtil.close(connection, statement);
             }
-
         } catch (Exception e) {
             e.printStackTrace();
+            throw new RuntimeException("数据库初始化任务错误");
         }
     }
 
