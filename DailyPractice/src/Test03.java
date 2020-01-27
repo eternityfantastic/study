@@ -8,7 +8,6 @@ import java.util.concurrent.ExecutorService;
 public class Test03{
 	public static  void main(String [] args){
 //		System.out.println(MyChild.str2);
-		ExecutorService
 		Integer [] arr = {4, 2, 3, 12};
 		List<Integer> list =  new ArrayList<>();
 //		List<Integer> integers = Arrays.asList(1, 4);
