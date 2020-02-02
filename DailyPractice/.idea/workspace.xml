@@ -2,13 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d2e3ac8-cbae-4fcf-bb86-b392d750be0f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/二的个数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/接口测试.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DailyPractice/MyChild.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DailyPractice/MyChild.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DailyPractice/MyParent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DailyPractice/MyParent$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DailyPractice/MyParent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DailyPractice/MyParent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DailyPractice/Test03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DailyPractice/Test03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DailyPractice/InterfaceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DailyPractice/InterfaceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java代码/Shoot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/Airplane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/Award.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/Bee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/Bullet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/FlyingObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/ShootGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/airplane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/bee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/gameover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/hero1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/hero2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/picture/airplane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/picture/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/picture/bee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/picture/bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/picture/gameover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/picture/hero1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/picture/hero2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/picture/pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/picture/start.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java代码/Shoot/src/com/example/shoot/start.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,29 +60,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArrayListCapacity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArrayListCapacity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="119" selection-start-line="119" selection-end-line="119" />
+            <state relative-caret-position="108">
+              <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="金币对换.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="金币对换.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/金币对换.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="648">
               <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterfaceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InterfaceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#224#225#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Array.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2160">
+              <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayCopy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ArrayCopy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1215">
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="二的个数.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/二的个数.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterfaceTest02.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InterfaceTest02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="接口测试.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/接口测试.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,8 +142,8 @@
       <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
         <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/Integer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16524">
-              <caret line="657" selection-start-line="657" selection-end-line="657" />
+            <state relative-caret-position="19683">
+              <caret line="774" column="30" selection-start-line="774" selection-start-column="22" selection-end-line="774" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -75,54 +153,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1080">
               <caret line="67" selection-start-line="67" selection-end-line="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Array.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1728">
-              <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test03.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test03.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractExecutorService.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/AbstractExecutorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7101">
-              <caret line="305" column="37" selection-start-line="305" selection-start-column="28" selection-end-line="305" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeapTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HeapTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1269">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -148,8 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/StringIsNum.java" />
-        <option value="$PROJECT_DIR$/src/FinalTest.java" />
         <option value="$PROJECT_DIR$/src/CollectionTest.java" />
         <option value="$PROJECT_DIR$/src/StudentList.java" />
         <option value="$PROJECT_DIR$/src/Card.java" />
@@ -170,7 +198,6 @@
         <option value="$PROJECT_DIR$/src/MyStack.java" />
         <option value="$PROJECT_DIR$/src/meage.java" />
         <option value="$PROJECT_DIR$/src/MeageSort.java" />
-        <option value="$PROJECT_DIR$/src/ArrayCopy.java" />
         <option value="$PROJECT_DIR$/src/SortTest.java" />
         <option value="$PROJECT_DIR$/src/TE.java" />
         <option value="$PROJECT_DIR$/src/ThreadTest03.java" />
@@ -183,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/Client.java" />
         <option value="$PROJECT_DIR$/src/ArrayListCapacity.java" />
         <option value="$PROJECT_DIR$/src/InterfaceTest02.java" />
-        <option value="$PROJECT_DIR$/src/InterfaceTest.java" />
         <option value="$PROJECT_DIR$/src/imp.java" />
         <option value="$PROJECT_DIR$/src/异常.java" />
         <option value="$PROJECT_DIR$/src/URL.java" />
@@ -199,6 +225,10 @@
         <option value="$PROJECT_DIR$/Main.java" />
         <option value="$PROJECT_DIR$/src/Test03.java" />
         <option value="$PROJECT_DIR$/src/金币对换.java" />
+        <option value="$PROJECT_DIR$/src/接口测试.java" />
+        <option value="$PROJECT_DIR$/src/InterfaceTest.java" />
+        <option value="$PROJECT_DIR$/src/ArrayCopy.java" />
+        <option value="$PROJECT_DIR$/src/二的个数.java" />
       </list>
     </option>
   </component>
@@ -225,8 +255,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,20 +276,26 @@
             </path>
             <path>
               <item name="DailyPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DailyPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ArrayCopy.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="DailyPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Study/DailyPractice/src/imp.java&#10;toStringCache&#9;PSI&#9;JAVA://java.lang.StringBuffer#toStringCache&#10;rr&#9;FILE&#9;jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Arrays.java&#10;+&#9;null&#9;null&#10;intern&#9;PSI&#9;JAVA://java.lang.String#intern" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java代码" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -278,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.金币对换">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="金币对换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="金币对换" />
       <module name="DailyPractice" />
@@ -289,18 +325,23 @@
       <module name="DailyPractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SimpleHTTPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimpleHTTPServer" />
-      <module name="DailyPractice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="StringConstruct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringConstruct" />
-      <module name="DailyPractice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration name="Test03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test03" />
+      <module name="DailyPractice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestArrayCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestArrayCopy" />
+      <module name="DailyPractice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="二的个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="二的个数" />
+      <module name="DailyPractice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="接口测试" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="接口测试" />
       <module name="DailyPractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -346,19 +387,17 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SimpleHTTPServer" />
-      <item itemvalue="Application.StringConstruct" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Test03" />
       <item itemvalue="Application.金币对换" />
+      <item itemvalue="Application.TestArrayCopy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestArrayCopy" />
         <item itemvalue="Application.金币对换" />
         <item itemvalue="Application.Test03" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StringConstruct" />
-        <item itemvalue="Application.SimpleHTTPServer" />
       </list>
     </recent_temporary>
   </component>
@@ -459,11 +498,14 @@
       <workItem from="1579573406059" duration="4037000" />
       <workItem from="1579664628905" duration="3910000" />
       <workItem from="1579678199042" duration="57000" />
+      <workItem from="1580123879826" duration="1836000" />
+      <workItem from="1580528707758" duration="5408000" />
+      <workItem from="1580624854377" duration="79000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275595000" />
+    <option name="totallyTimeSpent" value="282918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -482,7 +524,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32616487" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15602264" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16329831" />
       <window_info anchor="right" id="Database" order="6" weight="0.32983023" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -504,7 +546,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21422797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -514,7 +556,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32795697" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="6" weight="0.32983023" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32616487" />
@@ -523,10 +565,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004042" side_tool="true" weight="0.3291592" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32795697" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32616487" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,27 +583,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ThreadTest03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThreadTest04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -629,20 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6372">
           <caret line="266" column="24" selection-start-line="266" selection-start-column="24" selection-end-line="266" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterfaceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterfaceTest02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -831,13 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -853,20 +853,66 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/金币对换.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterfaceTest02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/接口测试.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterfaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -879,15 +925,15 @@
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16524">
-          <caret line="657" selection-start-line="657" selection-end-line="657" />
+        <state relative-caret-position="19683">
+          <caret line="774" column="30" selection-start-line="774" selection-start-column="22" selection-end-line="774" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/金币对换.java">
+    <entry file="file://$PROJECT_DIR$/src/二的个数.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="214">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
         </state>
       </provider>
     </entry>

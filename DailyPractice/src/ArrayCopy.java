@@ -32,16 +32,23 @@ public class ArrayCopy {
 
 class TestArrayCopy {
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 2, 3, 4, 5};
-        int[][] arr2 = new int[][]{{1, 2, 3, 4, 5}, {1, 2, 3, 4, 5}, {1, 2, 3, 4, 5}};
-        int[] clone = arr.clone();
-        int[][] clone2 = arr2.clone();
-        clone2[1][2] = 0;
-        System.out.println(clone2[1][2]);
-        System.out.println(arr2[1][2]);
+//        int[] arr = new int[]{1, 2, 3, 4, 5};
+//        int[][] arr2 = new int[][]{{1, 2, 3, 4, 5}, {1, 2, 3, 4, 5}, {1, 2, 3, 4, 5}};
+//        int[] clone = arr.clone();
+//        int[][] clone2 = arr2.clone();
+//        clone2[1][2] = 0;
+//        System.out.println(clone2[1][2]);
+//        System.out.println(arr2[1][2]);
 
 //        System.out.println(Arrays.toString(clone2));
 //        System.out.println(Arrays.toString(arr2));
+        for(int i = 0 ; i < 1000 ; i++){
+            System.out.print(i   + "   ");
+            if(i%10 == 0) {
+                System.out.println();
+            }
+
+            }
     }
 
 }
