@@ -11,12 +11,14 @@ import java.util.List;
 //账号操作
 public class accountDao {
     //增删改
-    public static boolean update(String sql, Object... obj) {
-        return JDBCDao.update(sql, obj);
+    public static boolean update(Object... obj) {
+        String sql = "insert into account (username,password) values(?,?)";
+        return JDBCDao.update(true,sql, obj);
     }
 
-    //深度封装查询
-    public static Account query(String sql, Object... obj) {
+    //查询
+    public static Account query(Object... obj) {
+        String sql ="select id,username,password from account where username=?and password=?";
         Connection conn = JDBCUtil.getCollection(true);
         PreparedStatement pstm = null;
         ResultSet rs = null;
@@ -34,7 +36,6 @@ public class accountDao {
                 account.setPassword(rs.getString(3));
                 list.add(account);
             }
-
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {

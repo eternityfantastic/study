@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../artifactid01/artifactid01.iml" filepath="$PROJECT_DIR$/../artifactid01/artifactid01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/first_javaee.iml" filepath="$PROJECT_DIR$/first_javaee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project01/project01.iml" filepath="$PROJECT_DIR$/../project01/project01.iml" />
     </modules>
   </component>
 </project>

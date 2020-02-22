@@ -5,13 +5,14 @@ import model.Account;
 import util.ToSecret;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.util.List;
 
+@WebServlet("login")
 public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -23,8 +24,8 @@ public class LoginServlet extends HttpServlet {
         String password = req.getParameter("password");
         password = ToSecret.toSecret(password);
         //查询数据库
-        String sql ="select id,username,password from account where username=?and password=?";
-        Account user = accountDao.query(sql);
+
+        Account user = accountDao.query(username,password);
         //
         if(user != null){
             HttpSession session = req.getSession();
@@ -32,6 +33,8 @@ public class LoginServlet extends HttpServlet {
             resp.sendRedirect("index.html");
         }else{
             //查无此账号
+            resp.sendRedirect("login.html");
+
         }
 
 

@@ -11,7 +11,7 @@ public class LinkList {
     public Node Create(Object value ){
         Node node = new Node();
         node.date = value;
-        node.next = head ;
+        node.next =this.head ;
         head = node;
         size++;
         return head;

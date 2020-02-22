@@ -32,7 +32,7 @@ public class JDBCUtil {
             /*等价
             ((MysqlDataSource) DATESOURCE).setServerName("localhost");
             ((MysqlDataSource) DATESOURCE).setPort(3306);
-            ((MysqlDataSource) DATESOURCE).setDatabaseName("test");
+            ((MysqlDataSource) DATESOURCE).setDatabaseName("cash");
            */
         ((MysqlDataSource) DATESOURCE).setUser(USER);
         ((MysqlDataSource) DATESOURCE).setPassword(PASSWORD);
@@ -82,9 +82,4 @@ public class JDBCUtil {
             }
         }
     }
-
-    public static void close(Connection conn, Statement pstm) {
-        close(conn, pstm, null);
-    }
-
 }
