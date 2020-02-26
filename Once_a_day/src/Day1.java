@@ -32,12 +32,15 @@ public class Day1 implements Sort {
 
     @Override
     public void shellSort(int[] array) {
+//        插入排序
+
         int[] gap = {5, 3, 1};
         for (int i = 0; i < gap.length; i++) {
 
             for (int j = gap[i]; j < array.length; j += gap[i]) {
                 int insert = array[j];
                 int k = j - gap[i];
+
                 for (; k >= 0 && insert < array[k]; k -= gap[i]) {
                     array[k + gap[i]] = array[k];
                 }

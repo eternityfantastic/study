@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Day03 implements 插入选择冒泡排序 {
     @Override
     public void insertSort(int[] array) {
@@ -96,7 +99,6 @@ public class Day03 implements 插入选择冒泡排序 {
                     int temp = array[j];
                     array[j] = array[j + 1];
                     array[j + 1] = temp;
-
                 }
             }
             if (flg) {
